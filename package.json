@@ -1,0 +1,27 @@
+{
+  "name": "mathjax-online",
+  "version": "0.9.0",
+  "description": "A simple api server to convert latex formulas into SVG.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "server": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cerallin/mathjax-online.git"
+  },
+  "keywords": [
+    "mathjax",
+    "latex"
+  ],
+  "author": "Cerallin <cerallin@cerallin.top>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cerallin/mathjax-online/issues"
+  },
+  "homepage": "https://github.com/Cerallin/mathjax-online#readme",
+  "dependencies": {
+    "mathjax-node": "^2.1.1"
+  }
+}
